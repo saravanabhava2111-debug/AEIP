@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Ansh Roshan <anshroshan813210@gmail.com>"]
+channels = ["conda-forge"]
+name = "AEIP"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+
+[pypi-dependencies]
+numpy = "==1.26.2"
+scipy = "==1.11.4"
+pandas = "==2.1.4"
